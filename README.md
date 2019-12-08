@@ -8,7 +8,7 @@ composer global require laravel/envoy
 
 Include with composer
 ```
-composer require mkoterle/envoy-oven
+composer require koterle/envoy-oven
 ```
 
 or you can just copy the Envoy.blade.php and the config in the root of your project.
@@ -16,7 +16,7 @@ or you can just copy the Envoy.blade.php and the config in the root of your proj
 # Setup
 Copy the sample config sample to root of your project.
 ```
-cp vendor\mkoterle\envoy-oven\envoy.config.sample.php envoy.sample.php
+cp vendor/koterle/envoy-oven/envoy.config.sample.php envoy.config.php
 ```
 Most config options have a sensible default. The required options are:
 ```
@@ -33,7 +33,7 @@ Check out the example config file for more information.
 ## Deployment
 If installed with composer run using:
 ```
-envoy run deploy
+envoy run deploy --path=./vendor/koterle/envoy-oven/Envoy.blade.php
 ```
 
 If copied to root, run using:
@@ -49,7 +49,7 @@ Options
 ## Rollback
 Rolls back to the previous release
 ```
-envoy run rollback
+envoy run rollback --path=./vendor/koterle/envoy-oven/Envoy.blade.php
 ```
 
 # Changes
