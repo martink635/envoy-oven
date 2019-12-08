@@ -1,5 +1,5 @@
 {
-    "name": "mkoterle/envoy-oven",
+    "name": "koterle/envoy-oven",
     "description": "'Zero-downtime' deployments with symlinks and rollbacks.",
     "require": {
         "php": "^7.2"
