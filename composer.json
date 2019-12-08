@@ -1,6 +1,7 @@
 {
     "name": "koterle/envoy-oven",
     "description": "'Zero-downtime' deployments with symlinks and rollbacks.",
+    "license": "MIT",
     "require": {
         "php": "^7.2"
     }
